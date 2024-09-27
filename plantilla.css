@@ -19,6 +19,37 @@ footer { position: fixed; width: 100%; bottom: 0; }
 a{ text-decoration: none; color: #000;}
 
 
+/* Estilos Responsivos */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em; /* Reduce el tamaño del título en móviles */
+    }
+
+    h3 {
+        font-size: 1.2em; /* Reduce el tamaño de los subtítulos */
+    }
+
+    article {
+        margin: 10px; /* Reduce el margen del artículo en móviles */
+        padding: 10px; /* Reduce el padding del artículo en móviles */
+    }
+
+    .svg-logo {
+        width: 100%; /* Hace que el logo se ajuste al ancho completo en móviles */
+        height: auto; /* Mantiene la proporción del logo */
+    }
+    footer {font-size: 14px; /* Reduce el tamaño de la fuente del footer */}
+}
+
+/* Estilos para pantallas más grandes (tablets y PCs) */
+@media (min-width: 601px) {
+    article {
+        max-width: 800px; /* Limita el ancho del artículo en pantallas grandes */
+        margin: 20px auto; /* Centra el artículo en pantallas grandes */
+    }
+}
+
+
 .svg-logo { width: 600px; height: 100px;}
 .text_logo{ text-align: center; font-family: Arial, sans-serif; font-size: 20px; margin-top: 10px; color:white;}
 .text_sd { text-align: center; font-family: Arial, sans-serif; font-size: 20px; margin-top: 10px; color:white;}
