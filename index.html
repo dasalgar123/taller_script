@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de: If-else y if-elseif-else JavaScript</title>
+    <link rel="stylesheet" href="plantilla.css">
+</head>
+<body>
+    <header> 
+        <section class="logo">
+            <label for="Desarrollo de Software"></label>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="600" height="100">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%">
+                        <stop offset="0%" class="grad-start" />
+                        <stop offset="100%" class="grad-end" />
+                    </linearGradient>
+                </defs>
+                <rect width="200" height="100" class="background"/>
+                <text x="20" y="80" class="text">
+                    DS
+                </text>
+                <path d="M160 20 L180 50 L160 80" class="path-blue"/>
+                <path d="M140 20 L160 50 L140 80" class="path-green"/>
+            </svg>
+            
+            <p style="text-align: center; font-family: Arial, sans-serif; font-size: 20px; margin-top: 10px;">
+                Soluciones Informatica Garantizada y Certificadas
+            </p>
+        </section>
+        <h1>Ejercicios de: If-else y if-elseif-else JavaScript</h1>
+        <h3>Ejercicio # 02.</h3>
+        <h3>- Programa que determina si un estudiante ha aprobado un examen con una calificación mínima de 60.</h3>
+
+        <div>
+            <p>Solicitar al usuario calificación.</p>
+            <p>Calcular el descuento según las siguientes condiciones:</p>
+            <ul>
+                <li>Calcular si aprobado con mayor de 60.</li>
+                <li>Calcular si reprobó con menor de 60.</li>
+            </ul>
+        </div>    
+    </header>
+    <article><br>
+        <table>
+            <tr>
+                <th>Consulta</th>
+                <th>Entrada</th>
+                <th>Acción</th>
+            </tr>
+            
+            <tr>
+                <td><label for="calificacion_input"><h3>Calificación</h3></label></td>
+                <td><input id="calificacion_input" class="calificacion_input" type="number" placeholder="Favor digite la calificación"></td>
+                <td><button id="ver_estado_btn" class="ver_estado_btn" type="button" onclick="evaluarCalificacion()">Ver Estado</button></td>
+            </tr>
+            
+            <tr>
+                <td><label for="estado_output">Su estado es:</label></td>
+                <td><input id="estado_output" type="text" readonly placeholder="Su estado es "></td>
+                <td><!-- Aquí puedes agregar otro botón o información adicional si es necesario --></td>
+            </tr>
+        </table>
+        
+    </article>
+    <div>
+        <script src="02.js"></script>
+    </div>
+</body>
+
+<footer>
+    <div style="margin-bottom: 10px;">
+        <strong>DS</strong> - Desarrollo de Software
+    </div>
+    <div>
+        © 2024 Daniel Salinas. Todos los derechos reservados.
+    </div>
+    <div style="margin-top: 10px;">
+        <a href="https://www.linkedin.com/in/daniel-salinas">LinkedIn</a>
+        <a href="https://github.com/daniel-salinas">github</a>
+    </div>
+</footer>
+
+</html>
